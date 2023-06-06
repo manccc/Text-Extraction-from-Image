@@ -3,9 +3,9 @@ Step 1:	Create the copy of the project.
 Step 2: Open command prompt and change your current path
 to folder where you can find 'app.py' file.
 Step 3: Create environment by command given below-
-conda create -name <environment name>
+virtualenv env
 Step 4: Activate environment by command as follows-
-conda activate <environment name>
+env\scripts\activate
 Step 5: Install tesseract using windows installer available at: https://github.com/UB-Mannheim/tesseract/wiki
 Step 6: Note the tesseract path from the installation. Default installation path at the time of this edit was: C:\ProgramFiles\Tesseract-OCR. It may change so please check the installation path.
 Step 7: pytesseract.pytesseract.tesseract_cmd = r'C:\ProgramFiles\Tesseract-OCR\tesseract.exe'
